@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'RudawRegular';
+  src: url('fonts/rudawregular2.eot');
+  src: url('fonts/rudawregular2.eot?#iefix') format('embedded-opentype'),
+       url('fonts/rudawregular2.woff2') format('woff2'),
+       url('fonts/rudawregular2.woff') format('woff'),
+       url('fonts/rudawregular2.ttf')  format('truetype'),
+       url('fonts/rudawregular2.svg#RudawRegular') format('svg');
+}
+
+
+html,
+body  {
+  background: #039be5  !important;
+}
+html,
+body , .v-application , .title, .v-application .headline, .card__title {
+  font-family: 'RudawRegular', Roboto, sans-serif !important;
+  font-size: 17px !important;
+}
+
+.page-container-full {
+  background: #fff !important;
+  border-bottom: #039be5  solid 1px;
+  height: auto !important;
+}
+
+.page-border-top {
+  position: fixed;
+  top: 0;
+  height: 5px;
+  left: 0;
+  right: 0;
+  z-index: 3001;
+  background: #039be5 ;
+}
+
+.page-border-left {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 6px;
+  left: 0;
+  z-index: 3001;
+  background: #039be5 ;
+}
+
+.page-border-bottom {
+  position: fixed;
+  bottom: 0;
+  height: 6px;
+  left: 0;
+  right: 0;
+  z-index: 3001;
+  background: #039be5 ;
+}
+
+.page-border-right {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 6px;
+  right: 0;
+  z-index: 3001;
+  background: #039be5 ;
+}
